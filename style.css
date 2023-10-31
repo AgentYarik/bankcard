@@ -1,0 +1,159 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+} 
+    
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+    
+nav,footer,header,aside{display: block;} 
+    
+:root{ 
+    --boss: rgb(160, 160, 160); 
+    --colors: rgb(210, 198, 198); 
+}  
+    
+input,button,textarea{font-family:inherit;} 
+    
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;} 
+img{vertical-align: top;} 
+    
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+    
+html{ 
+    scroll-behavior: smooth; 
+}
+
+
+
+.block {
+    width: 480px;
+    height: 290px;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #000000, #504747);
+    margin: 0 auto;
+    margin-top: 150px;
+    transition: 1s;
+    box-shadow: 10px 10px 10px black;
+}
+.number{
+    
+}
+.block:hover{
+    
+}
+
+.block__title {
+    display: flex;
+    justify-content: space-around;
+}
+.block__text {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.block__photo {
+}
+.card__number {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.card__countainer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+.card__sivi {
+    margin-left: 40px;
+}
+.card__year {
+    margin-right: 40px;
+}
+.block__name{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    color: white;
+}
+
+.name__surname{
+    margin-bottom: 50px;
+}
+.input__number-card{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.input__card-sivi{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.input__card-year{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.input__name-surname{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.block__form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+}
+.block__form input {
+    margin-bottom: 10px;
+}
+.block__input{
+}
+.block__photo{
+    width: 90px;
+    margin-left: 38px;
+}
+.input__number-card::placeholder{
+    padding-left: 15px;
+    color: white;
+}
+.input__card-sivi::placeholder{
+    padding-left: 15px;
+    color: white;
+}
+.input__card-year::placeholder{
+    padding-left: 15px;
+    color: white;
+}
+.input__name-surname::placeholder {
+    padding-left: 15px;
+    color: white;
+}
+.block__img{
+    width: 60px;
+    height: 50px;
+}
