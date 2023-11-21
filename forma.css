@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://wallpapercrafter.com/desktop1/667153-smoke-veil-white-dark-form-backgrounds-abstract.jpg);
+}
+
+.container {
+    text-align: center;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block__text {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    animation: tanos 4s infinite alternate;
+    padding: 10px 10px;
+}
+@keyframes tanos {
+    0%{
+        background-color: #4CAF50;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: rgb(74, 114, 114);
+    }
+
+}
+
+.block__info {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.send__block {
+    padding: 15px 50px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 370px;
+    font-size: 15px;
+    
+}
+.send__block:hover{
+    animation: iron 3s infinite alternate;
+}
+.block__ifor {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.block__into {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.block__inpo {
+    width: 200px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.7s;
+}
+.block__inpo.green{
+    
+    box-shadow: 0px 0px 50px green;
+}
+.block__inpo.red{
+    box-shadow: 0px 0px 50px red;
+}
+@keyframes iron {
+    0%{
+        background-color: #9b4caf;
+    }
+    25%{
+        background-color: rgb(230, 127, 127);
+    }
+    50%{
+        background-color: rgb(23, 23, 77);
+    }
+    75%{
+        background-color: rgb(62, 55, 70);
+    }
+    100%{
+        background-color: rgb(143, 221, 221);
+    }
+}
+
+
+
+
+
+@media (max-width: 1199px) {}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {}
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {}
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {}
+
+    

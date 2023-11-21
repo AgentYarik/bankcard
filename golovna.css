@@ -1,0 +1,154 @@
+.header__body {
+    display: flex;
+    justify-content: space-around;
+}
+.logotipchik {
+    margin-top: 20px;
+    width: 230px;
+    animation: rotate 2s linear infinite alternate;
+}
+@keyframes rotate{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.header__text {
+    margin-top: 40px;
+}
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 30px;
+    transition: 0.7s;
+    padding: 15px 30px;
+}
+.text:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+body{
+    background: linear-gradient(135deg, #34dba9, #d82b96)
+}
+.countainer {
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+.text__title {
+    font-size: 30px;
+    cursor: pointer;
+    width: 500px;
+    transition: 0.7s;
+    text-align: center;
+}
+.text__title:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+}
+.text__img {
+    transition: 0.7s;
+}
+.text__img:hover{
+    transform: scale(1.1);
+}
+
+.card__block {
+    margin-top: 130px;
+    text-align: center;
+}
+.card__block-text {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.block__cartinka {
+    margin-top: 50px;
+}
+.card__img {
+}
+.icon {
+    margin: 100px;
+    width: 130px;
+}
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+        .logotipchik{
+            display: none;
+        }
+        .text__img{
+        }
+        .card__img{
+            width: 400px;
+        }
+        .text{
+            font-size: 30px;
+            padding: 1px 3px;
+        }
+        .text:hover{
+            border-radius: 10px;
+        }
+        .header__text{
+            text-align: center;
+        }
+    }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {
+        .logotipchik{
+            display: none;
+        }
+        .text__img{
+            display: none;
+        }
+        .card__img{
+            width: 400px;
+        }
+        .text{
+            font-size: 30px;
+            padding: 1px 3px;
+        }
+        .text:hover{
+            border-radius: 10px;
+        }
+        .header__text{
+            text-align: center;
+        }
+    }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {
+        .logotipchik{
+            display: none;
+        }
+        .text__img{
+            display: none;
+        }
+        .card__img{
+            width: 400px;
+        }
+        .text{
+            font-size: 30px;
+            padding: 5px 10px;
+        }
+        .text:hover{
+            border-radius: 10px;
+        }
+        .header__text{
+            text-align: center;
+        }
+    }

@@ -1,0 +1,100 @@
+
+.header__body {
+    display: flex;
+    justify-content: space-around;
+}
+.logotipchik {
+    width: 250px;
+    animation: rotate 2s linear infinite alternate;
+}
+@keyframes rotate{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.header__text {
+    margin-top: 40px;
+}
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 30px;
+    transition: 0.7s;
+    padding: 15px 30px;
+}
+.text:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+.email.night{
+    box-shadow: 0px 0px 10px green;
+    transition: 0.2s;
+}
+.email.summer{
+    box-shadow: 0px 0px 10px red;
+    transition: 0.2s;
+}
+.redd{
+    box-shadow: 0px 0px 10px red;
+    transition: 0.2s;
+}
+.greenn{
+    box-shadow: 0px 0px 10px green;
+    transition: 0.2s;
+}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        height: 100vh;
+        background-image: url(./img/shades-of-steel-abstract-4k-10.jpg);
+        overflow: hidden;
+    }
+
+    form {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        
+    }
+
+    .block__reg{
+        padding-top: 150px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    @media (max-width: 1199px) {}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {}
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {}
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {}

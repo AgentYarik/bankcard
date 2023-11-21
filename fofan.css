@@ -1,0 +1,514 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+} 
+.header__body {
+    display: flex;
+    justify-content: space-around;
+}
+.logotipchik {
+    margin-top: 20px;
+    width: 120px;
+    border-radius: 100px;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.header__text {
+    margin-top: 40px;
+}
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 30px;
+    transition: 0.7s;
+    padding: 15px 30px;
+}
+.text:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+    
+nav,footer,header,aside{display: block;} 
+    
+:root{ 
+    --boss: rgb(160, 160, 160); 
+    --colors: rgb(210, 198, 198); 
+}  
+    
+input,button,textarea{font-family:inherit;} 
+    
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;} 
+img{vertical-align: top;} 
+    
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+    
+html{ 
+    scroll-behavior: smooth; 
+}
+
+body{
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+}
+
+.block {
+    width: 550px;
+    height: 350px;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #000000, #504747);
+    margin: 0 auto;
+    margin-top: 150px;
+    transition: 1s;
+    box-shadow: 10px 10px 10px black;
+}
+.number{
+    
+}
+.block:hover{
+    
+}
+
+.block__title {
+    display: flex;
+    justify-content: space-around;
+}
+.block__text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 15px;
+}
+.block__photo {
+}
+.card__number {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.card__countainer {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.card__sivi {
+    margin-left: 40px;
+    color: white;
+}
+.card__year {
+    margin-right: 40px;
+    color: white;
+}
+.block__name{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    color: rgb(255, 226, 226);
+}
+
+.name__surname{
+    margin-bottom: 200px;
+    color: white;
+}
+.input__number-card{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.input__card-sivi{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+.block__form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 130px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+}
+
+.block__photo{
+    width: 90px;
+    margin-left: 38px;
+}
+.input__number-card::placeholder{
+    color: rgb(0, 0, 0);
+}
+.input__card-sivi::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input__card-year::placeholder{
+    color: rgb(0, 0, 0);
+}
+.input__name-surname::placeholder {
+    color: rgb(0, 0, 0);
+}
+.block__img{
+    width: 60px;
+    height: 50px;
+}
+
+.block__input input {
+}
+.countainer {
+    margin-top: 150px;
+}
+.countainer__block {
+    text-align: center;
+}
+.countainer__text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.block__zero{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.buttons{
+    padding: 18px 43px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.buttons:hover{
+    background-color: white;
+    color: black;
+}
+.remove{
+    padding: 20px 37px;
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+    border-radius: 10px;
+    margin-left: 880px;
+    
+}
+.remove:hover{
+    background-color: white;
+    color: black;
+}
+
+.img__bank-card{
+    
+}
+.zero{
+    width: 40px;
+    height: 40px;
+}
+
+.label__card{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.label__form{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.label__year{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.label__surname{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.label__button{
+    padding: 18px 62px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.label__button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.input__name-surname{
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 59px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 259px;
+}
+.input__card-year{
+    padding: 20px 15px;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 260px;
+}
+.block__form input {
+    margin-bottom: 10px;
+    
+}
+.block__input{
+    width: 100%;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 20px 19px;
+    display: flex;
+    margin-left: 880px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    transition: 0.7s;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.input__card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 15px auto;
+}
+.block__html{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-inner{
+    margin-bottom: 60px;
+}
+
+
+.check {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+}
+.check__box {
+    margin: 10px;
+}
+.check__label {
+    color: white;
+}
+.text__about{
+    font-weight: 900px;
+    border-bottom: 2px solid #FFF;
+    color: yellow;
+    cursor: pointer;
+}
+
+.check__modal{
+    position: absolute;
+    bottom: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    opacity: 0;
+    user-select: none;
+    transition: 0.9s;
+    
+}
+
+.check__modal.active{
+    opacity: 1;
+    bottom: -230px;
+}
+
+.check__box{
+    display: none;
+}
+
+.chrestic__check {
+}
+.close {
+}
+
+.modalka__new{
+    position: relative;
+}
+.modalka__textic{
+    background-color: greenyellow;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 100px;
+}
+.modalka__block.active{
+    left: 0px;
+}
+.modalka__block{
+    margin-top: 20px;
+    transition: 0.7s;
+    position: absolute;
+    left: -300px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+        .block__html{
+            display: flex;
+            flex-direction: column;
+        }
+        .block__form{
+            max-width: 900px;
+        }
+        .block{
+            width: 500px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            font-size: 25px;
+            text-align: center;
+        }
+        .logotipchik{
+            width: 300px;
+            animation: none;
+        }
+        .buy__block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-right: 880px;
+        }
+        .remove{
+            display: none;
+        }
+        .modalka__new{
+            margin-top: 100px;
+        }
+    }
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {
+        .block__html{
+            display: flex;
+            flex-direction: column;
+        }
+        .block__form{
+            max-width: 500px;
+        }
+        .block{
+            width: 500px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            font-size: 25px;
+            text-align: center;
+        }
+        .logotipchik{
+            width: 300px;
+            animation: none;
+        }
+        .buy__block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 270px;
+            padding: 15px 30px;
+        }
+        .remove{
+            display: none;
+        }
+        .modalka__new{
+            margin-top: 100px;
+        }
+    }
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {
+        .block__html{
+            display: flex;
+            flex-direction: column;
+        }
+        .block__form{
+            max-width: 500px;
+        }
+        .block{
+            width: 500px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            font-size: 50px;
+            text-align: center;
+        }
+        .logotipchik{
+            display: none;
+        }
+        .buy__block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1100px;
+            padding: 15px 30px;
+        }
+        .remove{
+            display: none;
+        }
+        .button{}
+
+        .modalka__textic{
+        
+        }
+        .modalka__new{
+            
+        }
+}
