@@ -94,7 +94,18 @@
     @media (max-width: 991px) {}
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
-    @media (max-width: 767px) {}
+    @media (max-width: 767px) {
+        .logotipchik{
+            width: 230px;
+        }
+    }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
-    @media (max-width: 575px) {}
+    @media (max-width: 575px) {
+        .logotipchik{
+            display: none;
+        }
+        .text{
+            text-align: center;
+        }
+    }

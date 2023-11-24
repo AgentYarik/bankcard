@@ -152,3 +152,8 @@ body{
             text-align: center;
         }
     }
+    @media (max-width: 400px){
+        .card__img{
+            width: 300px;
+        }
+    }   

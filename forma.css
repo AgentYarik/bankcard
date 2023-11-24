@@ -113,9 +113,29 @@ body {
     @media (max-width: 991px) {}
 
 /* Стилі для малих екранів (дисплей максимум 767рх) */
-    @media (max-width: 767px) {}
+    @media (max-width: 767px) {
+        .block{
+            margin-left: 63px;
+        }
+        .block__text{
+            width: 210px;
+            font-size: 27px;
+        }
+        .countainer{
+            width: 500px;
+        }
+    }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
-    @media (max-width: 575px) {}
+    @media (max-width: 575px) {
+        .block{
+            margin-left: 63px;
+        }
+        .block__text{
+            width: 430px;
+        }
+    }
 
-    
+    @media (max-width: 400px){
+        
+    }
