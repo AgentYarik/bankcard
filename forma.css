@@ -49,17 +49,16 @@ body {
     margin-bottom: 10px;
 }
 
-.send__block {
+.button {
     padding: 15px 50px;
     background-color: #4CAF50;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-left: 370px;
     font-size: 15px;
     
 }
-.send__block:hover{
+.button:hover{
     animation: iron 3s infinite alternate;
 }
 .block__ifor {
@@ -124,6 +123,9 @@ body {
         .countainer{
             width: 500px;
         }
+        .button{
+            margin-left: 60px;
+        }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
@@ -132,7 +134,13 @@ body {
             margin-left: 63px;
         }
         .block__text{
-            width: 430px;
+            width: 400px;
+        }
+        .input__block{
+            margin-left: 80px;
+        }
+        .button{
+            margin-left: 140px;
         }
     }
 

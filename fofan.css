@@ -470,6 +470,13 @@ body{
         .modalka__new{
             margin-top: 100px;
         }
+        .button{
+            margin-right: 600px;
+            padding: 10px 50px;
+        }
+        .modalka__textic{
+            margin-left: 265px;
+        }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
@@ -503,10 +510,13 @@ body{
         .remove{
             display: none;
         }
-        .button{}
+        .button{
+            margin-right: 440px;
+            padding: 10px 50px;
+        }
 
         .modalka__textic{
-        
+            margin-left: 140px;
         }
         .modalka__new{
             
