@@ -81,7 +81,128 @@ body{
 .icon {
     margin: 100px;
     width: 130px;
+    animation: tuti 2s linear infinite alternate;
 }
+@keyframes tuti{
+    0%{
+        transform: scale(0.8);
+    }
+    25%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.icons{
+    margin: 100px;
+    width: 130px;
+    animation: fruti 2s linear infinite alternate;
+}
+@keyframes fruti {
+    0%{
+        transform: translateY(50px);
+    }
+    25%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+.iconi{
+    margin: 100px;
+    width: 130px;
+    animation: lolo 2s linear infinite alternate;
+}
+
+.countainer__card-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 1000px;
+    margin-left: 400px;
+    
+}
+.terminal {
+    transform: rotate(90deg);
+
+}
+.card__terminal {
+    width: 180px;
+    animation: card 3s linear infinite;
+}
+@keyframes card {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(800px);
+    }
+}
+@keyframes lolo {
+    0%{
+        transform: rotate(360deg);
+    }
+    25%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    75%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
+}
+
+.place__id{
+    color: white;
+    padding: 15px 30px;
+    margin-left: 220px;
+    border-radius: 30px
+}
+
+.div__bank {
+    width: 600px;
+    margin-left: 610px;
+    transform: scale(0);
+    opacity: 0;
+    transition: 1.2s;
+}
+
+.div__bank.new{
+    transform: scale(1);
+    opacity: 1;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(135deg, #34dba9, #2b3cd8);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+
+    border-radius: 8px;
+    border: 3px solid rgb(136, 197, 38);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: goldenrod;
+}
+
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) {}
 
@@ -150,6 +271,9 @@ body{
         }
         .header__text{
             text-align: center;
+        }
+        .div__bank{
+            display: none;
         }
     }
     @media (max-width: 400px){

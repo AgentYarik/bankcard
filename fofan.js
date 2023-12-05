@@ -67,6 +67,10 @@ textAbout.addEventListener("click", function(){
     }
 })
 
+
+
+
+
 let buttonCheck = document.querySelector(".check__button")
 
 buttonCheck.addEventListener("click", function(){
@@ -77,6 +81,11 @@ buttonCheck.addEventListener("click", function(){
         checkModal.classList.remove("active")
     }
 })
+
+
+
+
+
 
 
 
@@ -92,5 +101,9 @@ yarikModal.addEventListener("click", function(){
     )
 })
 
+let myButton = document.querySelector(".button");
 
+myButton.addEventListener('click', function() {
+    alert('Вітаю! Ви оформили карту');
+});
 

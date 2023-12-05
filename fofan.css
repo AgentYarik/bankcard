@@ -32,6 +32,7 @@
     margin: 30px;
     transition: 0.7s;
     padding: 15px 30px;
+    text-align: center;
 }
 .text:hover{
     background-color: black;
@@ -66,7 +67,8 @@ html{
 }
 
 body{
-    background: linear-gradient(135deg, #3498db, #8e44ad);
+    background: linear-gradient(to bottom, #cc00ff, #6f00ff);
+    height: 131vh;
 }
 
 .block {
@@ -310,6 +312,7 @@ body{
     align-items: center;
     gap: 20px;
     margin: 15px auto;
+    cursor: pointer;
 }
 .block__html{
     display: flex;
@@ -342,7 +345,7 @@ body{
 
 .check__modal{
     position: absolute;
-    bottom: 300px;
+    bottom: 900px;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -375,22 +378,23 @@ body{
     padding: 15px 15px;
     border-radius: 10px;
     cursor: pointer;
-    top: 100px;
+    margin-left: 845px;
+    margin-top: 30px;
 }
 .modalka__block.active{
-    left: 0px;
+    left: 665px;
 }
 .modalka__block{
     margin-top: 20px;
-    transition: 0.7s;
+    transition: 1.6s;
     position: absolute;
-    left: -300px;
+    left: -600px;
     font-size: 20px;
     background-color: black;
     color: white;
     padding: 10px 10px;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 
@@ -400,6 +404,15 @@ body{
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
     @media (max-width: 991px) {
+        .check__modal{
+            bottom: -1200px;
+        }
+        body{
+            height: 200vh;
+        }
+        .modalka__new{
+            display: none;
+        }
         .block__html{
             display: flex;
             flex-direction: column;
@@ -511,14 +524,76 @@ body{
             display: none;
         }
         .button{
-            margin-right: 440px;
+            margin-right: 390px;
             padding: 10px 50px;
         }
 
         .modalka__textic{
-            margin-left: 140px;
+            margin-left: 70px;
         }
         .modalka__new{
             
         }
+        .info__card{
+        }
+        .modalka__new{
+            display: none;
+        }
+        body{
+            height: 207vh;
+        }
 }
+
+@media (max-width: 450px) {
+    .block__html{
+        display: flex;
+        flex-direction: column;
+    }
+    .block__form{
+        width: 400px;
+    }
+    .block{
+        width: 400px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        text-align: center;
+    }
+    .logotipchik{
+        display: none;
+    }
+    .buy__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1100px;
+        padding: 15px 30px;
+    }
+    .remove{
+        display: none;
+    }
+    .button{
+        margin-right: 500px;
+        padding: 10px 50px;
+    }
+
+    .modalka__textic{
+        margin-left: 140px;
+    }
+    .modalka__new{
+        
+    }
+    .header__text{
+        width: 100%;
+    }
+    body{
+        height: 220vh;
+    }
+}
+@media (max-width: 600px){
+    body{
+        background: white;
+    }
+} 

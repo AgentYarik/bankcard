@@ -45,24 +45,72 @@ button.addEventListener("click", function(){
     let userGmail = blockInto.value
     let userPassword = blockInpo.value
 
-
+    
     if(userName.length === 0){
-        alert("Введіть своє імя")
+        let checkModal = document.querySelector(".check")
+        checkModal.classList.add("razer")
+        setTimeout(function(){
+            checkModal.classList.remove("razer")
+        }, 2000) 
         return;
     }
     else if(userPassword.length < 7){
-        alert("Пароль має бути не менше 7 символів")
+        let modalkaCheck = document.querySelector(".modalka")
+        modalkaCheck.classList.add("blody")
+        setTimeout(function(){
+            modalkaCheck.classList.remove("blody")
+        },2000)
         return;
     }
     else if(userPhone.length !== 13 || !userPhone.includes("+") ){
-        alert("Номер повинен мати 13 символів і плюсічок")
+        let pinKod = document.querySelector(".pinkod")
+        pinKod.classList.add("pasword")
+        setTimeout(function(){
+            pinKod.classList.remove("pasword")
+        },2000)
         return;
     }
     else if (!userGmail.includes("@") ){
-        alert("Невірний формат електронної пошти")
+        let emailNep = document.querySelector(".emailik")
+        emailNep.classList.add("emalike")
+        setTimeout(function(){
+            emailNep.classList.remove("emalike")
+        },2000)
         return;
     }
+
     else{
+        sessionStorage.setItem("userName", userName)
         window.location.href = "./golovna.html"
     }
+    
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* else{
+    let userNameDisplay = document.getElementById("userNameDisplay");
+    userNameDisplay.textContent = "Ваше ім'я: " + userName;
+
+    window.location.href = "./golovna.html";
+}
+
+ */

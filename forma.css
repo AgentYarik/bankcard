@@ -84,6 +84,7 @@ body {
 .block__inpo.red{
     box-shadow: 0px 0px 50px red;
 }
+
 @keyframes iron {
     0%{
         background-color: #9b4caf;
@@ -102,10 +103,135 @@ body {
     }
 }
 
+.check{
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    margin-bottom: 1100px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    border: 10px solid #ffffff;
+}
 
+.modell{
+    font-size: 30px;
+}
+.check.razer{
+    opacity: 1;
+    margin-bottom: 500px;
+}
+.modalka {
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    margin-bottom: 1100px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    border: 10px solid #fff;
 
+}
+.modalka__img{
+    width: 50px;
+    animation: hear 2s linear infinite;
+}
+@keyframes hear {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(380px);
+    }
+}
+.modalka__text {
+    font-size: 30px;
+}
+.modalka.blody{
+    opacity: 1;
+    margin-bottom: 500px;
+}
+.pinkod {
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    margin-bottom: 1100px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    border: 10px solid #fff;
+}
+.pinkod__img{
+    width: 50px;
+    border-radius: 30px;
+    animation: hew 1.7s linear infinite;
+}
+@keyframes hew {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(430px);
+    }
+}
+.pin__text {
+    font-size: 30px;
+}
+.pinkod.pasword {
+    opacity: 1;
+    margin-bottom: 500px;
+}
+.emailik {
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    margin-bottom: 1100px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    border: 10px solid #fff;
+}
+.emailik.emalike{
+    opacity: 1;
+    margin-bottom: 500px;
+}
+.emailik__text {
+    font-size: 30px;
+}
 
+.emailik__img{
+    width: 50px;
+    background-color: white;
+    border-radius: 20px;
+    animation: hepi 2s linear infinite;
+}
 
+@keyframes hepi {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(250px);
+    }
+}
+
+.check__img{
+    width: 50px;
+    animation: ears 3s linear infinite;
+}
+
+@keyframes ears {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(230px);
+    }
+}
 @media (max-width: 1199px) {}
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
@@ -144,6 +270,11 @@ body {
         }
     }
 
-    @media (max-width: 400px){
-        
+    @media (max-width: 490px){
+        .block__text{
+            width: 200px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            margin-left: 80px;
+        }
     }
