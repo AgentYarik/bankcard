@@ -249,6 +249,9 @@ body{
         .header__text{
             text-align: center;
         }
+        .div__bank{
+            display: none;
+        }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */

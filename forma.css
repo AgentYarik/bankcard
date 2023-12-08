@@ -240,7 +240,9 @@ body {
 /* Стилі для малих екранів (дисплей максимум 767рх) */
     @media (max-width: 767px) {
         .block{
-            margin-left: 63px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .block__text{
             width: 210px;
@@ -250,23 +252,40 @@ body {
             width: 500px;
         }
         .button{
-            margin-left: 60px;
+
+        }
+        .block__text{
+
+        }
+        .input__block{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) {
         .block{
-            margin-left: 63px;
         }
         .block__text{
             width: 400px;
         }
         .input__block{
-            margin-left: 80px;
         }
         .button{
-            margin-left: 140px;
+        }
+        .check__img{
+            display: none;
+        }
+        .modalka__img{
+            display: none;
+        }
+        .pinkod__img{
+            display: none;
+        }
+        .emailik__img{
+            display: none;
         }
     }
 
@@ -275,6 +294,5 @@ body {
             width: 200px;
             margin: 0 auto;
             margin-bottom: 30px;
-            margin-left: 80px;
         }
     }

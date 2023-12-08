@@ -201,7 +201,6 @@ body{
 }
 
 .buttons{
-    padding: 18px 43px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transition: 0.7s;
@@ -254,7 +253,6 @@ body{
     border-radius: 10px;
 }
 .label__button{
-    padding: 18px 62px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transition: 0.7s;
@@ -597,3 +595,38 @@ body{
         background: white;
     }
 } 
+@media (max-width: 418px){
+    .block__form{
+        width: 300px;
+    }
+    .input__name-surname{
+        width: 140px;
+        height: 100px;
+    }
+    .input__card-year{
+        width: 140px;
+        height: 100px;
+    }
+    .label__button{
+        width: 140px;
+        height: 100px;
+        text-align: center;
+    }
+    .buttons{
+        width: 140px;
+        height: 100px;
+        text-align: center;
+    }
+    .block{
+        width: 300px;
+    }
+    .input__card{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .button{
+        margin-left: 820px;
+    }
+}
